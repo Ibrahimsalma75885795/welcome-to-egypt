@@ -1,0 +1,152 @@
+body{
+    background-color: peachpuff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+
+}
+h1{
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px ;
+    text-align: center;
+    text-decoration: underline;
+
+}
+h3{
+    color: aqua;
+    font-style: italic;
+}
+a{
+    color: slateblue;
+}
+nav ul{
+    background-color: sandybrown;
+    border-style: solid;
+    border-color: seashell;
+    border-width: 7px;
+    list-style-type: none;
+    text-align: center;
+    padding: 12px;
+    border-radius: 20px;
+}
+nav ul li{
+    display: inline;
+    padding: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: papayawhip;
+    list-style-type: none;
+}
+nav ul li :hover{
+background-color: rgb(239, 0, 0);
+color: rgb(102, 0, 255);
+}
+/* General Styles */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Specific Styles for Content Sections */
+.music, .attraction, .food {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.music h2, .attraction h2, .food h2 {
+    color: #333;
+}
+
+.music p, .attraction p, .food p {
+    color: #666;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
